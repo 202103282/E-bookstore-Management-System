@@ -1,10 +1,10 @@
-# Ebook.py
+# Ebook
 
 class Ebook:
-    """Represents an e-book in the catalog."""
+    """Represent an e-book in the catalog."""
 
     def __init__(self, title, author, publication_date, genre, price):
-        """Initialize e-book details."""
+        """e-book details."""
         self.__title = title
         self.__author = author
         self.__publication_date = publication_date
